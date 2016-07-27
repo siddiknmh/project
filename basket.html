@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Lyonnaise</title>
+
+    <!-- Bootstrap core CSS -->    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+    <link href="css/doc.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css">
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+   
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+<div class="wraper">
+	<header class="header_part">
+		<div class="container">
+			<div class="row show_prt">
+			 	<div class="col-sm-5">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-sm-7">
+			 		<div class="head_rit">
+			 			<div class="top">
+			 				<span><a href="#">MON ESPACE CLIENT</a></span>
+			 				<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="#" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 					<!-- <div class="support">
+				 					<h3 class="gap">Espace Professionnel</h3>
+				 					<div class="otr_btn"><a href="#">Créer un compte pro</a></div>
+				 				</div>	 -->
+			 				</div>
+			 			</div>
+			 			<div class="rit_top_bot">
+			 				<div class="row">
+			 					<div class="col-sm-5">
+			 						<div class="rtb_l">
+			 							<p>CONTACT</p>
+			 							<h2>0892 460 900</h2>
+			 						</div>
+			 					</div>
+			 					<div class="col-sm-7">
+			 						<div class="cart_sec">
+			 							<div class="crt">
+			 								<div class="crt_in">04</div>
+			 							</div>
+			 							<div class="crt_dit">
+			 								<h2><a href="#"> MY CART </a></h2>
+			 								<p>Your Shopping Cart is empty</p>
+			 							</div>
+			 						</div>
+			 					</div>
+			 				</div>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 </div>	
+		</div>
+	</header>
+	
+	<div class="mob_head hide_prt">
+		<div class="container">
+			<div class="row">
+			 	<div class="col-xs-6">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-xs-6">
+			 		<div class="top_box">
+			 			<div class="top_box_in"><img src="images/topPic2.png" alt=""/>
+			 				<div class="itm_rit">04</div>
+			 			</div>
+			 			<div class="top_box_in"><a href="#" id="open"><img src="images/topPic1.png" alt=""/></a>
+			 				<!--<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 				</div>-->
+			 			</div>
+			 		</div>
+			 	</div>
+			</div> 	
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+						      <li><a href="#" class="panel-menu" panel-class="car_tires" >CAR <br /> <span>TIRES</span></a></li>
+						      <li><a href="#" class="panel-menu"  panel-class="motorcycle_tires" >motorcycle <br /> <span>tires</span></a></li>
+						      <li><a href="#" class="panel-menu" panel-class="alloy_weels">Alloy <br /> <span>wheels</span></a></li>
+						      <li><a href="#" class="panel-menu" panel-class="steal_weels"  >Steel <br /> <span>wheels</span></a></li>
+						      <li><a href="#" class="panel-menu"  panel-class="show_chain">Snow <br /> <span>chains</span></a></li>
+						    </ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<p>CONTACT</p>
+						<h2>0892 460 900</h2>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<h2>MY CART</h2>
+						<p>Your Shopping Cart is empty</p>
+					</div>
+				</div>
+			</div>
+			<div class="mob_top_frm" id="hide" style="display:none;">
+				<h3>TITRE</h3>
+				
+				<div class="styled_select">
+					<select>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+					</select>
+				</div>
+				
+				<div class="styled_select">
+					<select>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+					</select>
+				</div>
+				<div class="lock otrBtn big"><a href="#" class="big3">VALIDER</a></div>
+				<div class="blackBox">
+					<p>JE N'AI PAS DE COMPTE</p>
+					<div class="inBtn"><a href="#">CRéeR un compteclient</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu_sec show_prt">
+		 <div class="container">
+		 	<div class="menu_in">
+		 		<div class="row">
+			 		<div class="col-sm-3">
+			 			<div class="lft_mnu">
+			 				<p>WHY BUY</p>
+			 				<h3>AT Lyonnaise Des Pneu?</h3>
+			 			</div>
+			 		</div>
+			 		<div class="col-sm-9">
+			 			<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+								<li><a class="panel-menu" panel-class="car_tires" >CAR <br /> <span>TIRES</span></a></li>
+								<li><a  class="panel-menu"  panel-class="motorcycle_tires" >motorcycle <br /> <span>tires</span></a></li>
+								<li><a class="panel-menu" panel-class="alloy_weels">Alloy <br /> <span>wheels</span></a></li>
+								<li><a class="panel-menu" panel-class="steal_weels"  >Steel <br /> <span>wheels</span></a></li>
+								<li><a  class="panel-menu"  panel-class="show_chain">Snow <br /> <span>chains</span></a></li>
+
+							</ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+			 		</div>
+			 	</div>	
+
+		 	</div>
+		 </div>
+	</div>
+	<section class="body_prt">
+		<div class="container">
+
+			<div class="row">
+				<div class="next_lavel_step">
+					<div class="col-md-12">
+						<div class="next_lavel_menu">
+							<ul>
+								<li><a class="active" href="#">Panire</a></li>
+								<li><a href="#">Address</a></li>
+								<li><a href="#">Payment</a></li>
+								<li><a href="#">Validation</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div><!-- End next lavel step row-->
+
+			<div class="row">
+				<div class="selected_item">
+					<div class="col-md-12">
+						<div class="selected_item_container">
+
+								<div class="selected_item_top">
+									<div class="col-md-8">
+										<div class="item_title">
+											<h3>Product Name</h3>
+											<h4>Price</h4>
+										</div>
+									</div>
+									<div class="col-md-2">
+										<div class="item_quentity">
+											<h4>Quentity</h4>	
+										</div>
+									</div>
+									<div class="col-md-2 ">
+										<div class="item_price">
+											<h4>Price Total LLC</h4>
+										</div>
+									</div>
+								</div>
+
+								<div class="selected_single_item">
+									<div class="col-md-8">
+										<div class="selected_item_info">
+											<div class="col-md-2">
+												<div class="item_img">
+													<img src="images/tyerS2.png" alt="">
+												</div>
+											</div>
+											<div class="col-md-7">
+												<div class="item_info">
+													<div class="i_c_logo">
+														<img src="images/i_c_logo.png" alt="">
+													</div>
+													<h4>MICHELIN Energy Saver +</h4>
+													<h6>205/55 R16 91V</h6>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="item_p">
+													<h2>77,00$</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2 ">
+										<div class="S_item_qu">
+											<div class="item_q_top">
+												<span>X</span>
+												<select name="" id="">
+													<option value="">1</option>
+													<option value="" selected>2</option>
+													<option value="">3</option>
+													<option value="">4</option>
+													<option value="">5</option>
+												</select>
+											</div>
+											<div class="item_q_bottom">
+												<h5>supprimer</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2">
+										<div class="s_item_p">
+											<h2>155,40$</h2>
+										</div>
+									</div>
+								</div>
+
+								<div class="selected_single_item">
+									<div class="col-md-8">
+										<div class="selected_item_info">
+											<div class="col-md-2">
+												<div class="item_img">
+													<img src="images/tyerS2.png" alt="">
+												</div>
+											</div>
+											<div class="col-md-7">
+												<div class="item_info">
+													<div class="i_c_logo">
+														<img src="" alt="">
+													</div>
+													<h4>MICHELIN Energy Saver +</h4>
+													<h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="item_p">
+													<h2>77,00$</h2>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2 ">
+										<div class="S_item_qu">
+											<div class="item_q_top">
+												<span>X</span>
+												<select name="" id="">
+													<option value="">1</option>
+													<option value="" selected>2</option>
+													<option value="">3</option>
+													<option value="">4</option>
+													<option value="">5</option>
+												</select>
+											</div>
+											<div class="item_q_bottom">
+												<h5>supprimer</h5>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2">
+										<div class="s_item_p">
+											<h2>155,40$</h2>
+										</div>
+									</div>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</div><!-- End selected item row -->
+
+			<div class="row">
+				<div class="offered_item">
+					<div class="col-md-12">
+						<div class="offered_item_contanir">
+							
+							<div class="single_offered_item">
+								<div class="col-md-10">
+									<div class="single_offered_inner">
+										<div class="col-md-2">
+											<div class="off_i_img">
+												<img src="images/offer_1.png" alt="">
+											</div>
+										</div>
+										<div class="col-md-10">
+											<div class="off_info">
+												<h4>Product information</h4>
+												<h6>Product description goes here.</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="offer_inner">
+										<h2>Offer</h2>
+									</div>
+									
+								</div>
+							</div>
+							
+							<div class="single_offered_item">
+								<div class="col-md-10">
+									<div class="single_offered_inner">
+										<div class="col-md-2">
+											<div class="off_i_img">
+												<img src="images/offer_2.png" alt="">
+											</div>
+										</div>
+										<div class="col-md-10">
+											<div class="off_info">
+												<h4>Product information</h4>
+												<h6>Product description goes here.</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="offer_inner">
+										<h2>Offer</h2>
+									</div>
+									
+								</div>
+							</div>
+							
+
+						</div>
+					</div>
+				</div>
+			</div><!-- End offered item row -->
+			
+			<div class="row">
+				<div class="related_item_container">
+					<div class="col-md-12">
+						<h2>Related Product</h2>
+
+						<div class="single_related_item">
+							<div class="col-md-9">
+								<div class="related_item_title">
+									<div class="col-md-9">
+										<h4>Item title gose here</h4>
+										<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="related_item_price">
+									<div class="col-md-3">
+										<h3>76,50$</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="add_chocie">
+									<button>Add chocie list</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_related_item">
+							<div class="col-md-9">
+								<div class="related_item_title">
+									<div class="col-md-9">
+										<h4>Item title gose here</h4>
+										<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="related_item_price">
+									<div class="col-md-3">
+										<h3>76,50$</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="add_chocie">
+									<button>Add chocie list</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="single_related_item">
+							<div class="col-md-9">
+								<div class="related_item_title">
+									<div class="col-md-9">
+										<h4>Item title gose here</h4>
+										<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class="related_item_price">
+									<div class="col-md-3">
+										<h3>76,50$</h3>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="add_chocie">
+									<button>Add chocie list</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div><!-- End releted item row -->
+
+			<div class="row">
+				<div class="cupone_code">
+					<div class="col-md-6">
+						<h2>Mon Conde Promo</h2>
+						<form action="">
+							<input type="text" name="" id="">
+							<input type="submit" value="OK">
+						</form>
+					</div>
+				</div>
+			</div><!-- End cupon code row -->
+
+			<div class="row">
+				<div class="continue_step">
+					<div class="col-md-6 col-md-offset-6">
+						<ul class="continue_box">
+							<li><h4>Contunue description</h4></li>	
+							<li><button>Contunue</button></li>	
+						</ul>
+					</div>
+				</div>
+			</div><!-- End of contune row -->
+
+			<div class="row">
+				<div class="bottom_promo">
+
+					<div class="left_promo">
+						<div class="col-md-4">
+							<img src="images/promo_1.png" alt="">
+							<h5 class="text_whight">Lorem ipsum dolor sit amet</h5>
+							<h5 class="text_blue">Consectetur adipisicing elit Qui vero</h5>
+						</div>
+					</div>
+					<div class="center_promo">
+						<div class="col-md-4">
+							<img src="images/promo_2.png" alt="">
+							<h5 class="text_whight">Lorem ipsum dolor sit amet</h5>
+							<h5 class="text_blue">Consectetur adipisicing elit Qui vero</h5>
+						</div>
+					</div>
+					<div class="right_promo">
+						<div class="col-md-4">
+							<img src="images/promo_3.png" alt="">
+							<h5 class="text_whight">Lorem ipsum dolor sit amet</h5>
+							<h5 class="text_blue">Consectetur adipisicing elit Qui vero</h5>
+						</div>
+					</div>
+				</div>
+			</div><!-- End of bottom promo row -->
+
+			<div class="row">
+				<div class="secure_payment">
+					<div class="col-md-12">
+						<div class="payment_info">
+							<span>Lorem ipsum dolor sit </span>
+							<span><img src="images/payment_way.jpg" alt=""></span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+						</div>
+					</div>
+				</div>
+			</div><!-- End of payment information row -->
+
+
+		</div><!-- End of container -->
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="mid_footer">
+				<div class="row">
+					<div class="footer_sec">
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MEILLEURES VENTES DE PNEUS</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Michelin ENERGY SAVER +</a></li>
+									<li><a href="#">Hankook KINERGY ECO K425</a></li>
+									<li><a href="#">Riken MAYSTORM 2 B2</a></li>
+									<li><a href="#">Michelin CROSS CLIMATE</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MARQUES PNEUS</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneus Michelin</a></li>
+									<li><a href="#">Pneus Continental</a></li>
+									<li><a href="#">Pneus Bridgestone</a></li>
+									<li><a href="#">Pneus Dunlop</a></li>
+									<li><a href="#">Pneus Goodyear</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>EQUIPEMENTS HIVER</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneu neige</a></li>
+									<li><a href="#">Chaine neige</a></li>
+									<li><a href="#">Chaussette neige</a></li>
+									<li><a href="#">Jantes Tole</a></li>
+									<li><a href="#">Jantes Alu</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MARQUES AUTOMOBILE</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneu Renault</a></li>
+									<li><a href="#">Pneu Peugeot</a></li>
+									<li><a href="#">Pneu Citroen</a></li>
+									<li><a href="#">Pneu Volkswagen</a></li>
+									<li><a href="#">Pneu BMW</a></li>
+								</ul>
+							</div>
+						</div>
+					
+						<div class="col-sm-12">
+							<div class="foot_list_btm">
+								<ul>
+									<li><a href="#">Allopneus recrute !</a></li>
+									<li><a href="#">Nos engagements</a></li>
+									<li><a href="#">Devenez affilie</a></li>
+									<li><a href="#">Partenaires</a></li>
+									<li><a href="#">Plan de site</a></li>
+									<li><a href="#">Conseils Techniques</a></li>
+									<li><a href="#">Stations de montage</a></li>
+									<li><a href="#">Conditions de vente</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="black_bar">
+			<div class="container">
+				<div class="row">
+					<div class="foot_list_btm2">
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li>Copyright &copy; 2015 Lyonnaise des pneus</li>
+							<li>All Rights Reserved </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/application.js"></script>
+
+<!-- OR -->
+<!-- <script src="js/docs.min.js"></script> -->
+ 
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+
+<script src="js/jquery.multiselect.js"></script>
+<script src="js/custom_ms.js"></script>
+<script>
+$('select[multiple]').multiselect({
+    columns: 0,
+    placeholder: 'Select options',
+	selectAll: true,
+	selectGroup: true,
+//	maxHeight: '500px'
+//	selectAllText: 'Select All'
+});
+</script>
+<script>document.querySelector("form").setAttribute("action", "")</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('#open').click(function(){
+$('#hide').slideToggle();
+});
+});
+</script>
+ 
+
+</body>
+</html>

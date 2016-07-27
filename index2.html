@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Lyonnaise</title>
+
+    <!-- Bootstrap core CSS -->    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+    <link href="css/doc.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+   
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+<div class="wraper">
+	<header class="header_part">
+		<div class="container">
+			<div class="row show_prt">
+			 	<div class="col-sm-5">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-sm-7">
+			 		<div class="head_rit">
+			 			<div class="top">
+			 				<span><a href="#">MON ESPACE CLIENT</a></span>
+			 				<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="#" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 					<!-- <div class="support">
+				 					<h3 class="gap">Espace Professionnel</h3>
+				 					<div class="otr_btn"><a href="#">Créer un compte pro</a></div>
+				 				</div>	 -->
+			 				</div>
+			 			</div>
+			 			<div class="rit_top_bot">
+			 				<div class="row">
+			 					<div class="col-sm-5">
+			 						<div class="rtb_l">
+			 							<p>CONTACT</p>
+			 							<h2>0892 460 900</h2>
+			 						</div>
+			 					</div>
+			 					<div class="col-sm-7">
+			 						<div class="cart_sec">
+			 							<div class="crt">
+			 								<div class="crt_in">04</div>
+			 							</div>
+			 							<div class="crt_dit">
+			 								<h2><a href="#"> MY CART </a></h2>
+			 								<p>Your Shopping Cart is empty</p>
+			 							</div>
+			 						</div>
+			 					</div>
+			 				</div>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 </div>	
+		</div>
+	</header>
+	
+	<div class="mob_head hide_prt">
+		<div class="container">
+			<div class="row">
+			 	<div class="col-xs-6">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-xs-6">
+			 		<div class="top_box">
+			 			<div class="top_box_in"><img src="images/topPic2.png" alt=""/>
+			 				<div class="itm_rit">04</div>
+			 			</div>
+			 			<div class="top_box_in"><a href="#" id="open"><img src="images/topPic1.png" alt=""/></a>
+			 				<!--<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 				</div>-->
+			 			</div>
+			 		</div>
+			 	</div>
+			</div> 	
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+						      <li><a href="#">CAR <br /> <span>TIRES</span></a></li>
+						      <li><a href="#">motorcycle <br /> <span>tires</span></a></li>
+						      <li><a href="#">Alloy <br /> <span>wheels</span></a></li>
+						      <li><a href="#">Steel <br /> <span>wheels</span></a></li>
+						      <li><a href="#">Snow <br /> <span>chains</span></a></li>
+						    </ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<p>CONTACT</p>
+						<h2>0892 460 900</h2>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<h2>MY CART</h2>
+						<p>Your Shopping Cart is empty</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="mob_top_frm" id="hide" style="display:none;">
+				<h3>TITRE</h3>
+				
+				<div class="styled_select">
+					<select>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+					</select>
+				</div>
+				
+				<div class="styled_select">
+					<select>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+					</select>
+				</div>
+				<div class="lock otrBtn big"><a href="#" class="big3">VALIDER</a></div>
+				<div class="blackBox">
+					<p>JE N'AI PAS DE COMPTE</p>
+					<div class="inBtn"><a href="#">CRéeR un compteclient</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 
+	
+	<div class="menu_sec show_prt">
+		 <div class="container">
+		 	<div class="menu_in">
+		 		<div class="row">
+			 		<div class="col-sm-3">
+			 			<div class="lft_mnu">
+			 				<p>WHY BUY</p>
+			 				<h3>AT Lyonnaise Des Pneu?</h3>
+			 			</div>
+			 		</div>
+			 		<div class="col-sm-9">
+			 			<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+						      <li><a href="#">CAR <br /> <span>TIRES</span></a></li>
+						      <li><a href="#">motorcycle <br /> <span>tires</span></a></li>
+						      <li><a href="#">Alloy <br /> <span>wheels</span></a></li>
+						      <li><a href="#">Steel <br /> <span>wheels</span></a></li>
+						      <li><a href="#">Snow <br /> <span>chains</span></a></li>
+						    </ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+			 		</div>
+			 	</div>	
+
+		 	</div>
+		 </div>
+	</div>
+	
+	<section class="body_prt">
+		<div class="container">
+			<div class="body_prt_in">
+				<div class="row">
+				 	<div class=" col-md-4 col-sm-12 section_1">
+				 		<div class="section_part_1">
+				 			<img src="images/img_5.png" class="bridgrestone_img" />
+
+				 		</div>
+						<p>Photo Non Contractuelle</p>
+				 	</div>
+				 	<div class="col-md-8 col-sm-12 section_2">
+				 		<div class="rit_pnl">
+				 			<div class="row">
+				 				<div class="col-md-6 section_part_2">
+									<h3 class="section_title">PNEU NEXEN <br> <span>N BLUE ECo</span></h3>
+									<p class="padding">205/55 R16 91 V</p>
+									<p>Type : Tourisme | Saison : Ete</p>
+									<div class="start-box">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p>4.4 / 5 (144 Avis)</p>
+									</div>
+								</div>
+				 				<div class="col-md-6 col-sm-12 section_part_3">
+									<ul class="services">
+										<li>
+											<p>Expédié sous 24h / 48h <img src="images/inPic1.png" class="time" /></p>
+										</li>
+										<li>
+											<p>Frais de livraison : Offerts !(1) <img src="images/img_100per.png" class="offer" /></p>
+										</li>
+										<li>
+											<p>Payez facilement 3x / 4x par CB <img src="images/img_credit.png" class="pays" /></p>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-12 col-sm-12 section_part_4">
+									<img src="images/img_service_provode.png"/>
+									<div>
+										<p class="text-bold" >SIMPLIFIEZ-VOUS LA VIE !</p>
+										<p class="text-noraml">Faites livrer Directement vos pneus chez un<br>garagiste pres de chez vous.</p>
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12 section_part_5">
+									<div class="col-md-4 col-sm-4 col-xs-4"><p>50 $ <br> 1 WEEK <br/><input type="radio" name="select" id="chk1" class="radio_button" checked /><label for="chk1"></label><br/><img src="images/errow.png"><br/><hr class="first_errow"/></p> </div>
+									<div class="col-md-4 col-sm-4 col-xs-4"><p>55 $ <br> 1 DAYS<br/><input type="radio" name="select" id="chk2" class="radio_button" /><label for="chk2"></label><br/><img src="images/errow.png"><br/></p><hr class=""/><p><img src="images/dow_errow.png" style="    margin-bottom: 15px;"/></p></div>
+									<div class="col-md-4 col-sm-4 col-xs-4"><p>60 $ <br> TODAY <br/><input type="radio" name="select" id="chk3" class="radio_button" /><label for="chk3"></label><br/><img src="images/errow.png"><br/><hr class="third_errow"/></p></div>
+									<div style="clear:both;"></div>
+									<a class="button" href="#">AJOUTER AU PAINER</a>
+
+								</div>
+				 			</div>
+				 		</div>
+				 	</div>
+
+				</div> 	
+			</div>
+
+			<div class="body_voir">
+				<div class="row">
+					<div class="voir_sections">
+						<h3 class="voir_section_title">VOIR <span>LES AVIS</span></h3>
+						<ul class="les-list">
+							<li>
+								<div class="les_div" >
+									<div class="start-box" style="float: left;">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p><span>5/</span>5</p>
+									</div>
+									<div class="comment_title" >H. A.LL y a1 semaine</div>
+								</div>
+								<p class="list_data"><img src="images/img_1_li.png" class="start_li" /> Excellente tenue de route.. <img src="images/img_2_li.png" class="end_li" /></p>
+							</li>
+							<li>
+								<div class="les_div" >
+									<div class="start-box" style="float: left;">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p><span>5/</span>5</p>
+									</div>
+									<div class="comment_title" >H. A.LL y a1 semaine</div>
+								</div>
+								<p class="list_data"><img src="images/img_1_li.png" class="start_li" />Bon rapport qualite prix<img src="images/img_2_li.png" class="end_li"  /></p>
+							</li>
+							<li>
+								<div class="les_div" >
+									<div class="start-box" style="float: left;">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p><span>5/</span>5</p>
+									</div>
+									<div class="comment_title" >H. A.LL y a1 semaine</div>
+								</div>
+								<p class="list_data"><img src="images/img_1_li.png" class="start_li" />Les pneus n'ont rien a envier au pneus de marques rapport qualite c'est le topje ne suis pas pret de changer<img src="images/img_2_li.png" class="end_li"  /></p>
+							</li>
+							<li>
+								<div class="les_div" >
+									<div class="start-box" style="float: left;">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p><span>5/</span>5</p>
+									</div>
+									<div class="comment_title" >H. A.LL y a1 semaine</div>
+								</div>
+								<p class="list_data"><img src="images/img_1_li.png"  class="start_li"/>Tres bon rapport qualite/prix.<img src="images/img_2_li.png" class="end_li"  /></p>
+							</li>
+							<li>
+								<div class="les_div" >
+									<div class="start-box" style="float: left;">
+										<div class="star">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+											<img src="images/star.png" alt="">
+										</div>
+										<p><span>5/</span>5</p>
+									</div>
+									<div class="comment_title" >H. A.LL y a1 semaine</div>
+								</div>
+								<p class="list_data"><img src="images/img_1_li.png"  class="start_li"/>Tres bons pneus!Avec un bon rapport qualite prix!<img src="images/img_2_li.png"  class="end_li" /></p>
+							</li>
+						</ul>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="body_voir">
+				<div class="row">
+					<div class="voir_sections">
+						<h3 class="voir_section_title">CENTERS <span>DE MONTAGE</span></h3>
+						<div class="col-md-12 col-sm-12 col-xs-12 contact_us" style="    margin-bottom: 10px;">
+							<h4>CONTACT US</h4>
+							<p class="margin">TOP PNEU St Priest 138 Route d'heyireux 69800 St Pries</p>
+							<p>TEL : 04.78.21.60.29</p>
+							<p  class="margin">Sortie 12 sur la rocade EST, sortie "St Priest Centre"_Prendre la deuxieme a droite au roud point._Volre garage TOP</p><p> PNEU se situe 200 metres plus Loin sur votre gauche._En face de la station BP, a cote d'une agence Citroen.</p>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 contact_us one_panel_div" style="border: 1px solid #ddd;" onclick="show_this(1);">
+							<h4>TOP TIRE ST PRIEST</h4>
+							<img src="images/img_2.png" style="width: 100%"/>
+							<p class="black_text">TOP TYRE St Priest welcomes you in East Lyon</p>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12 contact_us two_panel_div"  onclick="show_this(0);">
+							<h4>TOP CALUIRE TIRE AND COOK</h4>
+							<img src="images/img_1.png" style="width: 100%" />
+							<p class="black_text">TOP TYRE Caluire-And-Bake is located in the North Lyon</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="body_voir">
+				<div class="row">
+					<div class="voir_sections one_panel">
+						<h3 class="voir_section_title"><span>MONTAGE</span></h3>
+						<div class="col-md-6 col-sm-12 col-xs-12 montage ">
+							<p class="black_text margin ">TOP PNEU St Priest 138 Route d'heyrieux 69800 St Pries </p>
+							<p>TEL :04.78.21.60.29</p>
+							<p class="black_text margin ">Sortie 12 sur la rocade EST,sortie "St Priest Centre"_Prendre la deuxieme a droite au roud point._Votre garage TOP PNEU se situe 200 metres plus loin sure votre gauche._En face de la station BP,a cote d'une agence Citroen.  </p>
+							<h4 class="montage_horaires_title">HORAIRES</h4>
+							<table class="montage_horaires_table">
+								<tr>
+									<td><img src="images/img_time.png" /><p class="title_week">Lundi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Mardi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Mercredi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Vendredi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Samedi</p></td>
+									<td colspan="2"><p>Ferme</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Dimanche</p></td>
+									<td colspan="2"><p>Ferme</p></td>
+								</tr>
+							</table>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 montage " >
+							<div id="map2" style="width: 100%;margin: 30px;"></div>
+
+						</div>
+					</div>
+					<div class="voir_sections two_panel" >
+						<h3 class="voir_section_title"><span>MONTAGE</span></h3>
+						<div class="col-md-6 col-sm-12 col-xs-12 montage ">
+							<p class="black_text margin ">TOP PNEU St Priest 138 Route d'heyrieux 69800 St Pries </p>
+							<p>TEL :04.78.21.60.29</p>
+							<p class="black_text margin ">Sortie 12 sur la rocade EST,sortie "St Priest Centre"_Prendre la deuxieme a droite au roud point._Votre garage TOP PNEU se situe 200 metres plus loin sure votre gauche._En face de la station BP,a cote d'une agence Citroen.  </p>
+							<h4 class="montage_horaires_title">HORAIRES</h4>
+							<table class="montage_horaires_table">
+								<tr>
+									<td><img src="images/img_time.png" /><p class="title_week">Lundi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Mardi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Mercredi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Vendredi</p></td>
+									<td><p>09:00-12:30</p></td>
+									<td><p>14:00-18:30</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Samedi</p></td>
+									<td colspan="2"><p>Ferme</p></td>
+								</tr>
+								<tr>
+									<td><img src="images/img_time.png" /><p  class="title_week">Dimanche</p></td>
+									<td colspan="2"><p>Ferme</p></td>
+								</tr>
+							</table>
+						</div>
+						<div class="col-md-6 col-sm-12 col-xs-12 montage " >
+							<div id="map" style="width: 100%;margin: 30px;"></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer class="footer">
+
+		<div class="black_bar">
+			<div class="container">
+				<div class="row">
+					<div class="foot_list_btm2">
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li>Copyright &copy; 2015 Lyonnaise des pneus</li>
+							<li>All Rights Reserved </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/application.js"></script>
+
+<!-- OR -->
+<!-- <script src="js/docs.min.js"></script> -->
+ 
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="js/jquery.multiselect.js"></script>
+<script src="js/custom_ms.js"></script>
+<script>
+//$('select[multiple]').multiselect({
+//    columns: 0,
+//    placeholder: 'Select options',
+//	selectAll: true,
+//	selectGroup: true,
+////	maxHeight: '500px'
+////	selectAllText: 'Select All'
+//});
+
+$('.slct1 select[multiple]').multiselect({
+    columns: 0,
+    placeholder: 'Marques',
+	selectAll: true,
+//	selectAllText: 'Tous',
+	selectGroup: true,
+	checkboxSelectAllId: 'slct1-checkbox',
+	checkboxSelectAllClass: 'slct-checkbox',
+	customButtons: '<a class="btn btn-warning btn-chercher-first">Chercher les pneus</a><a class="btn-Montrer">Montrer toute la liste</a><a class="btn btn-warning btn-chercher-second">Chercher les pneus</a>'
+});
+
+$('.slct2 select[multiple]').multiselect({
+    columns: 0,
+    placeholder: 'Saison',
+	selectAll: true,
+//	selectAllText: 'Toutes',
+	selectGroup: true,
+	checkboxSelectAllId: 'slct2-checkbox',
+	checkboxSelectAllClass: 'slct-checkbox',
+	customButtons: '<a class="btn btn-primary btn-Choisir">Choisir &gt;</a>'
+});
+
+$('.slct3 select[multiple]').multiselect({
+    columns: 0,
+    placeholder: 'Type de véhicule',
+	selectAll: true,
+//	selectAllText: 'Toutes',
+	selectGroup: true,
+	checkboxSelectAllId: 'slct3-checkbox',
+	checkboxSelectAllClass: 'slct-checkbox',
+	customButtons: '<a class="btn btn-primary btn-Choisir">Choisir &gt;</a>'
+});
+</script>
+<script>document.querySelector("form").setAttribute("action", "")</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"  async defer></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('#open').click(function(){
+$('#hide').slideToggle();
+});
+});
+</script>
+
+<script>
+	function initMap() {
+		var mapDiv = document.getElementById('map');
+		var map = new google.maps.Map(mapDiv, {
+			center: {lat: 44.540, lng: -78.546},
+			zoom: 8
+		});
+		var mapDiv2 = document.getElementById('map2');
+		var map2 = new google.maps.Map(mapDiv2, {
+			center: {lat: 44.540, lng: -78.546},
+			zoom: 8
+		});
+	}
+</script>
+<script>
+	$(document).ready(function(){
+		$(".nav-tabs a").click(function(){
+			$(this).tab('show');
+		});
+		$('.nav-tabs a').on('shown.bs.tab', function(event){
+			var x = $(event.target).text();         // active tab
+			var y = $(event.relatedTarget).text();  // previous tab
+			$(".act span").text(x);
+			$(".prev span").text(y);
+		});
+	});
+</script>
+</body>
+</html>
