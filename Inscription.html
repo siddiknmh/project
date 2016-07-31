@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title>Lyonnaise</title>
+
+    <!-- Bootstrap core CSS -->    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/jquery.multiselect.css" rel="stylesheet" type="text/css">
+    <link href="css/doc.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css">
+	
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+   
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+
+<div class="wraper">
+	<header class="header_part">
+		<div class="container">
+			<div class="row show_prt">
+			 	<div class="col-sm-5">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-sm-7">
+			 		<div class="head_rit">
+			 			<div class="top">
+			 				<span><a href="#">MON ESPACE CLIENT</a></span>
+			 				<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="#" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 					<!-- <div class="support">
+				 					<h3 class="gap">Espace Professionnel</h3>
+				 					<div class="otr_btn"><a href="#">Créer un compte pro</a></div>
+				 				</div>	 -->
+			 				</div>
+			 			</div>
+			 			<div class="rit_top_bot">
+			 				<div class="row">
+			 					<div class="col-sm-5">
+			 						<div class="rtb_l">
+			 							<p>CONTACT</p>
+			 							<h2>0892 460 900</h2>
+			 						</div>
+			 					</div>
+			 					<div class="col-sm-7">
+			 						<div class="cart_sec">
+			 							<div class="crt">
+			 								<div class="crt_in">04</div>
+			 							</div>
+			 							<div class="crt_dit">
+			 								<h2><a href="#"> MY CART </a></h2>
+			 								<p>Your Shopping Cart is empty</p>
+			 							</div>
+			 						</div>
+			 					</div>
+			 				</div>	
+			 			</div>
+			 		</div>
+			 	</div>
+			 </div>	
+		</div>
+	</header>
+	
+	<div class="mob_head hide_prt">
+		<div class="container">
+			<div class="row">
+			 	<div class="col-xs-6">
+			 		<div class="logo"><a href="#"><img src="images/logo.png" alt=""/></a></div>
+			 	</div>
+			 	<div class="col-xs-6">
+			 		<div class="top_box">
+			 			<div class="top_box_in"><img src="images/topPic2.png" alt=""/>
+			 				<div class="itm_rit">04</div>
+			 			</div>
+			 			<div class="top_box_in"><a href="#" id="open"><img src="images/topPic1.png" alt=""/></a>
+			 				<!--<div class="top_log">
+			 					<h3>J'ai déjà un compte</h3>
+			 					<form action="" method="post">
+			 						<input type="text" name="" placeholder="Emil"/>
+			 						<input type="text" name="" placeholder="Mot de passe"/>
+			 						<p><a href="#">Mot de passe oublié</a></p>
+			 						<input type="submit" name="" value="Se connecter"/>
+			 					</form>
+			 					<div class="support">
+			 						<h3 class="gap">Je n'ai pas de compte</h3>
+			 						<div class="otr_btn"><a href="#">Créer un compte client</a></div>
+			 					</div>
+			 				</div>-->
+			 			</div>
+			 		</div>
+			 	</div>
+			</div> 	
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+						      <li><a href="#" class="panel-menu" panel-class="car_tires" >CAR <br /> <span>TIRES</span></a></li>
+						      <li><a href="#" class="panel-menu"  panel-class="motorcycle_tires" >motorcycle <br /> <span>tires</span></a></li>
+						      <li><a href="#" class="panel-menu" panel-class="alloy_weels">Alloy <br /> <span>wheels</span></a></li>
+						      <li><a href="#" class="panel-menu" panel-class="steal_weels"  >Steel <br /> <span>wheels</span></a></li>
+						      <li><a href="#" class="panel-menu"  panel-class="show_chain">Snow <br /> <span>chains</span></a></li>
+						    </ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<p>CONTACT</p>
+						<h2>0892 460 900</h2>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="mob_dit">
+						<h2>MY CART</h2>
+						<p>Your Shopping Cart is empty</p>
+					</div>
+				</div>
+			</div>
+			<div class="mob_top_frm" id="hide" style="display:none;">
+				<h3>TITRE</h3>
+				
+				<div class="styled_select">
+					<select>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+						<option>Emil</option>
+					</select>
+				</div>
+				
+				<div class="styled_select">
+					<select>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+						<option>Mot de passe</option>
+					</select>
+				</div>
+				<div class="lock otrBtn big"><a href="#" class="big3">VALIDER</a></div>
+				<div class="blackBox">
+					<p>JE N'AI PAS DE COMPTE</p>
+					<div class="inBtn"><a href="#">CRéeR un compteclient</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu_sec show_prt">
+		 <div class="container">
+		 	<div class="menu_in">
+		 		<div class="row">
+			 		<div class="col-sm-3">
+			 			<div class="lft_mnu">
+			 				<p>WHY BUY</p>
+			 				<h3>AT Lyonnaise Des Pneu?</h3>
+			 			</div>
+			 		</div>
+			 		<div class="col-sm-9">
+			 			<nav class="navbar navbar-default" role="navigation">
+						  <!-- Brand and toggle get grouped for better mobile display -->
+						  <div class="navbar-header">
+						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse">
+						      <span class="sr-only">Toggle navigation</span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						      <span class="icon-bar"></span>
+						    </button>
+						  </div>
+						  <!-- Collect the nav links, forms, and other content for toggling -->
+						  <div class="collapse navbar-collapse navbar-ex2-collapse">
+						    <ul class="nav navbar-nav">
+								<li><a class="panel-menu" panel-class="car_tires" >CAR <br /> <span>TIRES</span></a></li>
+								<li><a  class="panel-menu"  panel-class="motorcycle_tires" >motorcycle <br /> <span>tires</span></a></li>
+								<li><a class="panel-menu" panel-class="alloy_weels">Alloy <br /> <span>wheels</span></a></li>
+								<li><a class="panel-menu" panel-class="steal_weels"  >Steel <br /> <span>wheels</span></a></li>
+								<li><a  class="panel-menu"  panel-class="show_chain">Snow <br /> <span>chains</span></a></li>
+
+							</ul>
+						  </div><!-- /.navbar-collapse --> 
+						</nav>
+			 		</div>
+			 	</div>	
+
+		 	</div>
+		 </div>
+	</div>
+	<section class="body_prt">
+		<div class="container">
+		
+			<div class="row">
+				<div class="fb_vote_top">
+					<div class="col-sm-12">
+						<div class="fb_vote_top_inner">
+							<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit <a href="#">Facebook</a></h5>
+							<span class="blue_dwon_arrow"></span>
+							<a href=""><img src="images/facebook_button.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div><!-- End of fb vot top row -->
+
+			<div class="row">
+				<div class="fb_vote_from">
+					<div class="col-md-6 col-sm-12">
+						<div class="fb_vote_from_left">
+							<h2>Lorem ipsum dolor</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<p>Fugiat exercitationem ea possimus voluptatem ipsam magnam vitae nisi</p>
+							<span>Lorem ipsum dolor <a href="">sit</a> amet <a href="">consectetur</a></span>
+
+							<form action="">
+								<label for="">Enterz une address email</label>
+								<input type="email" name="" id="">
+
+								<label for="">Confiremz voter address email</label>
+								<input type="email" name="" id="">
+								<input type="submit" value="Inscription">
+							</form>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-sm-12">
+						<div class="fb_vote_from_right">
+							<h2>Lorem ipsum dolor</h2>
+
+							<form action="">
+								<label for="">Enterz voter email</label>
+								<input type="email" name="" id="">
+
+								<label for="">Mot de passe</label>
+								<input type="email" name="" id="">
+								<p>Mot de passe oublle</p>
+								<input type="submit" value="Inscription">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			
+
+
+		</div><!-- End of container -->
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="mid_footer">
+				<div class="row">
+					<div class="footer_sec">
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MEILLEURES VENTES DE PNEUS</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Michelin ENERGY SAVER +</a></li>
+									<li><a href="#">Hankook KINERGY ECO K425</a></li>
+									<li><a href="#">Riken MAYSTORM 2 B2</a></li>
+									<li><a href="#">Michelin CROSS CLIMATE</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MARQUES PNEUS</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneus Michelin</a></li>
+									<li><a href="#">Pneus Continental</a></li>
+									<li><a href="#">Pneus Bridgestone</a></li>
+									<li><a href="#">Pneus Dunlop</a></li>
+									<li><a href="#">Pneus Goodyear</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>EQUIPEMENTS HIVER</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneu neige</a></li>
+									<li><a href="#">Chaine neige</a></li>
+									<li><a href="#">Chaussette neige</a></li>
+									<li><a href="#">Jantes Tole</a></li>
+									<li><a href="#">Jantes Alu</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-sm-3">
+							<div class="foot_head">
+								<h3>MARQUES AUTOMOBILE</h3>
+							</div>
+							<div class="foot_list">
+								<ul>
+									<li><a href="#">Pneu Renault</a></li>
+									<li><a href="#">Pneu Peugeot</a></li>
+									<li><a href="#">Pneu Citroen</a></li>
+									<li><a href="#">Pneu Volkswagen</a></li>
+									<li><a href="#">Pneu BMW</a></li>
+								</ul>
+							</div>
+						</div>
+					
+						<div class="col-sm-12">
+							<div class="foot_list_btm">
+								<ul>
+									<li><a href="#">Allopneus recrute !</a></li>
+									<li><a href="#">Nos engagements</a></li>
+									<li><a href="#">Devenez affilie</a></li>
+									<li><a href="#">Partenaires</a></li>
+									<li><a href="#">Plan de site</a></li>
+									<li><a href="#">Conseils Techniques</a></li>
+									<li><a href="#">Stations de montage</a></li>
+									<li><a href="#">Conditions de vente</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="black_bar">
+			<div class="container">
+				<div class="row">
+					<div class="foot_list_btm2">
+						<ul>
+							<li><a href="#">Privacy Policy</a></li>
+							<li>Copyright &copy; 2015 Lyonnaise des pneus</li>
+							<li>All Rights Reserved </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+	
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-carousel.js"></script>
+<script src="js/application.js"></script>
+
+<!-- OR -->
+<!-- <script src="js/docs.min.js"></script> -->
+ 
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+
+
+<script src="js/jquery.multiselect.js"></script>
+<script src="js/custom_ms.js"></script>
+<script>
+$('select[multiple]').multiselect({
+    columns: 0,
+    placeholder: 'Select options',
+	selectAll: true,
+	selectGroup: true,
+//	maxHeight: '500px'
+//	selectAllText: 'Select All'
+});
+</script>
+<script>document.querySelector("form").setAttribute("action", "")</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('#open').click(function(){
+$('#hide').slideToggle();
+});
+});
+</script>
+ 
+
+</body>
+</html>
