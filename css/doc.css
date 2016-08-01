@@ -2451,3 +2451,106 @@ div.single_related_item:last-child{
     color:#37332B;
     font-size:14px;
 }
+
+
+/***********************************************************************************
+============================Inscription Page Style =================================
+************************************************************************************/
+
+.fb_vote_top{
+	text-align: center;
+	margin: 50px 0;
+	overflow: hidden;
+}
+.fb_vote_top_inner{
+	padding-bottom: 50px;
+	border-bottom: 3px solid #002391;
+}
+.fb_vote_top_inner a{
+	color: #002391;
+	text-decoration: none;
+}
+.fb_vote_top_inner a:hover{
+	color: #002391;
+	text-decoration: none !important;
+}
+.fb_vote_top_inner h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.blue_dwon_arrow {
+    width: 120px;
+    height: 50px;
+    background: url("../images/bule_arro.png") no-repeat center center;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+.fb_vote_from{
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.form_section{
+	padding: 0 20px;
+}
+.form_section h2{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.form_section p{
+	font-size: 14px;
+	font-weight: bold;
+	color: #535152;
+}
+.form_section span{
+	background: #d7d5d6;
+	display: block;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: bold; 
+	margin-bottom: 15px;
+}
+.form_section span a{
+	color: #002391;
+	text-decoration: none;
+}
+.form_section span a:hover{
+	color: #002391;
+	text-decoration: none !important;
+}
+.form_section form label {
+    display: block;
+    font-size: 16px;
+    color: #000;
+}
+.form_section form input {
+    width: 100%;
+    padding: 10px;
+    background: #ebe9ea;
+    border: none;
+    margin-bottom: 20px;
+}
+.form_section form input.queter_size{
+	width: 70%;
+	margin-bottom: 5px;
+}
+.form_section form input[type='submit'] {
+    width: 25%;
+    float: right;
+    background: #002391;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 9px;
+}
+.fb_vote_from_right p{
+	color: #002391;
+}
+.fb_vote_from_right{
+}
+
+
