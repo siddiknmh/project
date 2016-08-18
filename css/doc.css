@@ -1668,7 +1668,7 @@ width: 100%;
 /*.ms-options-wrap > .ms-options > ul > li.optgroup span.label{ display: none;}*/
 .ms-options-wrap > .ms-options > ul > li.optgroup ul{
     float: left;
-    padding: 8px 0 0 18px;
+    padding: 8px 0px 0px 0;
     width: 100%;
 }
 li.optgroup:nth-child(1) .ms-selectall-checkbox ~ ul { border-top: 2px solid #EECA3A !important; }
@@ -2554,3 +2554,14 @@ div.single_related_item:last-child{
 }
 
 
+/***********************************************************************************
+============================Motorcycle Page Style =================================
+************************************************************************************/
+
+
+.ms-options > input{
+    margin-left: 22px;
+}
+.ms-options ul li {
+    padding-left: 20px;
+}
