@@ -600,7 +600,6 @@ img.bridgrestone_img {width: 100%;  }
     padding: 0;
 }
 .contact_us.active,.contact_us.active a,.contact_us.active a:hover,.nav-tabs li a:hover{
-    background: #002391 !important;
     border: 0px !important;
     color: #fff !important;
     font-weight: bold;
@@ -2120,11 +2119,50 @@ ul.nav-tabs li.active a span { cursor:pointer;}
 
 ul.nav-tabs li.active a span { cursor:pointer;}
 
+/***********************************************************************************/
+
+.car_serch {
+    width: 238px;
+}
+.search_vehicle ul.nav li a{
+    width: 119px;
+    height: 62px;
+    padding-top: 42px;
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    color: #75735C !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none !important;
+}
+.search_vehicle ul.nav li.activ a{
+    border: none !important;
+}
+.search_vehicle ul.nav li:first-child a {
+    background: url(../images/tabs-buttons.png) no-repeat 0 0;
+}
+.search_vehicle ul.nav li.active:first-child a {
+    background: url(../images/tabs-buttons.png) no-repeat -117px 0;
+}
+.search_vehicle ul.nav li:nth-child(2) a{
+    background: url(../images/tabs-buttons.png) no-repeat 0px -61px;
+}
+.search_vehicle ul.nav li.active:nth-child(2) a{
+    background: url(../images/tabs-buttons.png) no-repeat -117px -61px;
+}
+.search_vehicle .panel-heading {
+    overflow: hidden;
+    background: #F5F5F5;
+}
+
+.search_vehicle .panel-title a{
+    
+}
 
 /***********************************************************************************
 ============================Basket Page Style ======================================
 ************************************************************************************/
-
 .next_lavel_step{
     margin-bottom: 30px;
     overflow: hidden;
