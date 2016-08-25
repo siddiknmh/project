@@ -2156,10 +2156,15 @@ ul.nav-tabs li.active a span { cursor:pointer;}
     background: #F5F5F5;
 }
 
-.search_vehicle .panel-title a{
-    
+.search_vehicle .panel a{
+    text-decoration: none !important;
 }
-
+.search_vehicle .panel-heading h4{
+	color:#6b6d70;
+}
+.search_vehicle select{
+	width: 100%;
+}
 /***********************************************************************************
 ============================Basket Page Style ======================================
 ************************************************************************************/
