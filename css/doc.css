@@ -148,7 +148,7 @@ body_prt_in .show_prt{padding: 0 !important;}
 .rit_pnlLTop{width: 100%; display: inline-block; padding: 0 5% 0 0;}
 .rit_pnlLTop h3{font: 400 26px/30px 'Roboto', sans-serif; color: #0f0f10; margin: 0;}
 .slc_box{width: 100%; display: inline-block;}
-.inr_box{width: 24%; float: left; margin: 15px 1% 0 0;}
+.inr_box{width: 19%; float: left; margin: 15px 1% 0 0;}
 .inr_box3{width: 30%; float: left; margin: 15px 1% 0 0;}
 .inr_box_top{width: 100%; float: left;}
 .inr_box_top p{font: 400 15px/20px 'Roboto', sans-serif; color: #6b6d70; margin: 0; float: left;}
@@ -1576,20 +1576,20 @@ width: 100%;
 .slct1 { }
 .ms-options-wrap > .ms-options{ border-radius: 10px; border-top-left-radius: 0; left: -6px; margin-top: 8px; }
 .slct1 .ms-options-wrap > .ms-options{ width: 670px; height: 400px; max-height: none !important; border: 1px solid #fff; }
-.slct1 .ms-options-wrap{ height: 42px;}
+.slct1 .ms-options-wrap{ height: 52px;}
 .slct1 .ms-options-wrap > button::after{background:  url(../images/secBg.png) no-repeat scroll right center #fff; width: 40px; height: 40px; border: none; right: 0px;
     margin: 0px; top: 0px; border: 1px solid #fff;}
 .slct1:hover {background: none;}
 .slct2 { }
 .slct2 .ms-options-wrap > .ms-options{ width: 538px; }
-.slct2 .ms-options-wrap{ height: 42px;}
+.slct2 .ms-options-wrap{ height: 52px;}
 .slct2 .ms-options-wrap > button::after{background:  url(../images/secBg.png) no-repeat scroll right center #fff; width: 40px; height: 40px; border: none; right: 0px;
     margin: 0px; top: 0px; border: 1px solid #fff;}
 .slct2:hover {background: none;}
 
 .slct3 { }
 .slct3 .ms-options-wrap > .ms-options{ width: 406px; }
-.slct3 .ms-options-wrap{ height: 42px;}
+.slct3 .ms-options-wrap{ height: 52px;}
 .slct3 .ms-options-wrap > button::after{background:  url(../images/secBg.png) no-repeat scroll right center #fff; width: 40px; height: 40px; border: none; right: 0px;
     margin: 0px; top: 0px; border: 1px solid #fff;}
 .slct3:hover {background: none !important;}
@@ -2122,7 +2122,6 @@ ul.nav-tabs li.active a span { cursor:pointer;}
 /***********************************************************************************/
 
 .car_serch {
-    width: 238px;
 }
 .search_vehicle ul.nav li a{
     width: 119px;
@@ -2165,6 +2164,13 @@ ul.nav-tabs li.active a span { cursor:pointer;}
 .search_vehicle select{
 	width: 100%;
 }
+.styled_select2 p{
+	font: 400 15px/20px 'Roboto', sans-serif;
+    color: #6b6d70;
+    margin: 0;
+    float: left;	
+}
+
 /***********************************************************************************
 ============================Basket Page Style ======================================
 ************************************************************************************/
