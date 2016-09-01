@@ -91,7 +91,7 @@
             $(this).addClass('jqmsLoaded');
 
             // add option container
-            $(this).after('<div class="ms-options-wrap"><button class="ms-button">None Selected</button><div class="ms-options"><ul></ul></div></div>');
+            $(this).after('<div class="ms-options-wrap"><button class="ms-button">None Selected</button><div class="ms-options"><ul></ul><button  type="button" class="btn btn-primary pull-right close_button">Close ></button></div></div>');
             var placeholder = $(this).next('.ms-options-wrap').find('> button:first-child');
             var optionsWrap = $(this).next('.ms-options-wrap').find('> .ms-options');
             var optionsList = optionsWrap.find('> ul');

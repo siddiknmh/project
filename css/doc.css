@@ -2170,6 +2170,11 @@ ul.nav-tabs li.active a span { cursor:pointer;}
     margin: 0;
     float: left;	
 }
+.close_button {
+    margin: 10px 15px 0 0;
+    text-transform: uppercase;
+    color: #fff;
+}
 
 /***********************************************************************************
 ============================Basket Page Style ======================================

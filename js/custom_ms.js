@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+	$('.close_button').click(function(){
+		$('.ms-options').hide();
+	});
+
 	$('.opt-tire-label').mouseover(function() {
             var opt_tire_label_val = $(this).attr('id');
             $('#tire-img-' + opt_tire_label_val).show();
